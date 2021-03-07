@@ -5,13 +5,14 @@
 
 // 修改使用的时间
 // 2020/3/3 10:00:00.400
-const dd1 = new Date(2021, 2, 5, 14, 59, 59, 700).getTime();
-const dd2 = new Date(2021, 2, 5, 9, 00, 00, 000).getTime();
+const dd1 = new Date(2021, 2, 7, 23, 59, 59, 850).getTime();
+const dd2 = new Date(2021, 2, 7, 23, 59, 59, 950).getTime();
 // 修改这里, 添加skuId, 和抢购时间 date, 需要更改 月/日 时:分:秒:毫秒
 // skuId 获取方法， 打开任意一个商品详情页如 `https://item.jd.com/100011521400.html`, 则 `100011521400` 就是其skuId
 // https://item.jd.com/100015062660.html#crumb-wrap
 exports.pool = [
-  { skuId: '100010232899', date: dd1, areaId: '22_1930_50948_52157' },
+  { skuId: '69120688955', date: dd1, areaId: '22_1930_50948_52157' },
+{ skuId: '10027075130737', date: dd2, areaId: '22_1930_50948_52157' },
   //{ skuId: '10027082913439', date: dd2, areaId: '22_1930_50948_52157' },
   // {skuId: ['100012043978', '100016091234'],
     // date: dd1,
